@@ -1,0 +1,57 @@
+.about {
+	min-height: 900px;
+	min-width: 899px;
+	background: #fff;
+}
+
+.about__info--img1 {
+	margin-top: 208px;
+	position: absolute;
+	width: calc(100% * .2);
+	height: 747px;
+	margin-top: 111px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.about__info--img2 {
+	margin-top: 208px;
+	margin-left: 10%;
+	width: calc(100% * .26);
+	height: 500px;
+	background: url(../img/features-group.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.about__info--description {
+	max-width: calc((100% - 60px) * .4);
+	margin-left: 0px;
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+	margin-top: calc(100% * .18);
+}
+
+.about__info--title {
+	color: #2ecc71;
+	font-size: 48px;
+	font-weight: 300;
+	line-height: 60px;
+	color: #5a5a5a;
+	letter-spacing: 1.44px;
+}
+
+.about__info--span {
+	color: #0fd41b;
+	letter-spacing: 1.44px;
+}
+
+.about__info--text {
+	color: #5a5a5a;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 32px;
+	letter-spacing: 0.54px;
+}

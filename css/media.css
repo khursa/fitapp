@@ -1,0 +1,19 @@
+@media (max-width: 1200px) and (min-width: 980px) {
+
+	.nav__item {
+	  width: 100px;
+		position: relative;
+		left: -200px;
+	}
+
+	.link-button {
+	  padding-left: 16px;
+	}
+}
+
+@media (max-height: 630px) and (min-height: 400px) {
+
+	.header__title--img {
+	  zoom: .45;
+	}
+}
